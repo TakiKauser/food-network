@@ -21,9 +21,6 @@ body{
     justify-content: space-between;
     padding: 10px;
 }
-.left{
-    color: cyan;
-}
 .left:hover{
     color: orangered;
     transition: all .5s ease-in-out;
@@ -41,11 +38,21 @@ body{
     color: orangered;
     transition: all .5s ease-in-out;
 }
-.elements{
-    height: 1000px;
-    background-color: red;
-    background-image: linear-gradient(gray, white);
+.flex-container{
+    display: flex;
 }
+.center-item{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
 footer{
     height: 150px;
     background-image: linear-gradient(gray, black, gray);
