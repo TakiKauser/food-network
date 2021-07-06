@@ -9,6 +9,7 @@ body{
     color: blanchedalmond;
     display: flex;
     padding: 2px 0;
+    box-shadow: 10px 10px 30px cyan;
 }
 .orangered-text{
     color: orangered;
@@ -43,6 +44,8 @@ body{
     color: orangered;
     transition: all .5s ease-in-out;
 }
+/* navbar style ends*/
+
 .flex-container{
     display: flex;
     margin-bottom: 100px;
