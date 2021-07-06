@@ -117,8 +117,26 @@ body{
     box-shadow: 10px 10px 40px orangered;
     border-radius: 10px;
 }
+/* #fb{
+    width: 50px;
+    margin: auto;
+    padding: 0;
+    color: gray;
+}
+#insta{
+    width: 40px;
+    margin: auto;
+    padding: 0;
+    color: gray;
+} */
+#linkedin{
+    width: 30px;
+    margin: auto;
+    padding: 0;
+    color: gray;
+}
 footer{
-    height: 150px;
+    height: 200px;
     background-image: linear-gradient(gray, black, gray);
     text-align: center;
 }
