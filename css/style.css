@@ -83,6 +83,9 @@ body{
 }
 .banner{
     background-image: url("../images/shapes/7.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
 }
 .recipe-items{
     width: 30%;
