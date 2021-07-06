@@ -2,6 +2,8 @@ body{
     font-family: 'Righteous', cursive;
     margin: 0 auto;
 }
+
+/* class items */
 .header{
     background-image: linear-gradient(gray, black, gray);
     color: blanchedalmond;
@@ -92,6 +94,9 @@ body{
 .recipe-items img{
     width: 100%;
 }
+/* class items */
+
+/* id items */
 #first-item{
     margin-left: 5%;
 }
@@ -135,6 +140,7 @@ body{
     padding: 0;
     color: gray;
 }
+/* id items */
 footer{
     height: 200px;
     background-image: linear-gradient(gray, black, gray);
