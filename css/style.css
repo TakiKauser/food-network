@@ -68,25 +68,35 @@ body{
 .button-link{
     text-decoration: none;
     color:whitesmoke;
-    box-shadow: 5px 5px steelblue;
+    box-shadow: 5px 5px 30px cadetblue;
     background-image: linear-gradient(to bottom right, cyan, black);
-    border: 7px solid white;
+    /* border: 7px solid white; */
     border-radius: 10px;
     padding: 10px 20px;
     margin-top: 50px;
 }
 .button-link:hover{
     color: orangered;
-    box-shadow: 5px 10px whitesmoke;
+    box-shadow: 5px 10px cadetblue;
 }
 .banner{
     background-image: url("../images/shapes/7.png");
 }
-.recipe{
+.recipe-items{
     width: 30%;
+    margin: 4% 1%;
+    padding: 20px 20px;
+    box-shadow: 10px 10px 30px rgb(29, 110, 110);
+    border-radius: 7px;
 }
-.recipe img{
+.recipe-items img{
     width: 100%;
+}
+#first-item{
+    margin-left: 5%;
+}
+#last-item{
+    margin-right: 5%;
 }
 #about{
     margin-top: 150px;
@@ -124,5 +134,3 @@ footer{
 .footer-elements a:hover{
     color: cyan;
 }
-
-
