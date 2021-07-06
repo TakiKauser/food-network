@@ -108,14 +108,15 @@ body{
 #formatted-text{
     margin: 0 30%;
 }
-
-
-
-
-
-
-
-
+#statistics{
+    width: 60%;
+    margin: 4% 20%;
+    padding: 30px;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 10px 10px 40px orangered;
+    border-radius: 10px;
+}
 footer{
     height: 150px;
     background-image: linear-gradient(gray, black, gray);
